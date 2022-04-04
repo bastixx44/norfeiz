@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* ESTILOS DE FORMULARIO */
+form{
+    width: 800px;
+    margin: auto;
+    background-color: darkgray;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.w3-half{
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+h1{
+    color: rgb(146, 43, 43);
+    text-align: center; 
+    padding-top: 30px;
+}
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.middle{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.f-fila{
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.i-buscar{
+    padding: 15px;
+    text-align: right;
+}
+.buscar{
+    width: 33%;
+    text-align: left;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/* ESTILOS DE PRODUCTOS */
+.container-products {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.product {
+    border: 1px solid rgb(169, 164, 164);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-0 .filas{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:50px;
+    padding: 45px;
+}
+.pie-pagina .grupo-1 .filas .fila h1{
+    color: rgb(146, 43, 43);
+    font-size: 15px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(27, 26, 26);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: rgb(27, 26, 26);
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .box .b-boton{
+    background-color: red;
+    padding: 10px;
+}
+
+.pie-pagina .grupo-1 .box .b-hombre{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box .b-mujer{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.pie-pagina .grupo-1 .box .i-text{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: red;
+    text-align: center;
+}
+
+.pie-pagina .grupo-2{
+    background-color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(27, 26, 26);
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
